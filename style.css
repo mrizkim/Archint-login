@@ -115,3 +115,71 @@ form p {
   color: #3e334e;
   border-radius: 8px;
 }
+
+@media screen and (max-width: 991px) {
+  .container {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 198px auto;
+  }
+
+  .content-kiri {
+    padding: 0;
+  }
+
+  .box {
+    column-count: 1;
+    width: 100%;
+  }
+
+  .content-kiri .box .box-item.hidden {
+    display: none;
+  }
+
+  .content-kanan {
+    width: 100vw;
+    margin-top: 32px;
+    padding: 0 24px;
+    justify-content: center;
+  }
+  .header {
+    width: 347px;
+  }
+  .header h1 {
+    font-size: 2rem;
+  }
+  .header p {
+    font-size: 20px;
+  }
+
+  form {
+    max-width: 350px;
+  }
+
+  form h1 {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+
+  form input.input-login {
+    width: 350px;
+  }
+  .remember {
+    max-width: 350px;
+  }
+
+  .login {
+    max-width: 350px;
+  }
+
+  .login button {
+    width: 178px;
+  }
+  .login-with a {
+    width: 100px;
+  }
+}
