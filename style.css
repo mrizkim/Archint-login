@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  width: 1920px;
+  height: 969px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.content-kiri {
+  flex: 60%;
+  padding: 0 48px;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.box {
+  column-count: 3;
+  column-gap: 28px;
+}
+img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 28px;
+}
+
+.content-kanan {
+  flex: 40%;
+  padding: 72px 187px;
+}
+
+.header {
+  width: 347px;
+  margin-bottom: 64px;
+}
+.header h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  padding-bottom: 40px;
+}
+
+.header p {
+  font-size: 20px;
+}
+
+form {
+  display: grid;
+  width: 430px;
+}
+
+form h1 {
+  font-size: 2rem;
+  margin-bottom: 48px;
+}
+
+form label {
+  font-size: 1rem;
+  margin-bottom: 6px;
+}
+form input {
+  padding: 16px;
+  margin-bottom: 24px;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+
+.remember,
+.login {
+  display: flex;
+  justify-content: space-between;
+}
+.login button {
+  padding: 16px 0;
+  width: 196px;
+  border-radius: 8px;
+  color: #3e334e;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  margin-bottom: 48px;
+}
+
+.login button.active {
+  background-color: #3e334e;
+  color: #fff;
+}
+
+form p {
+  text-align: center;
+  color: #3e334e;
+  margin-bottom: 16px;
+}
+
+/* .login-with {
+  width: 416px;
+} */
+.login-with a {
+  text-align: center;
+  display: inline-block;
+  width: 128px;
+  padding: 12px 0;
+  border: 1px solid #3e334e;
+  color: #3e334e;
+  border-radius: 8px;
+}
